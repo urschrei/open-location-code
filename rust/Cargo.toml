@@ -9,4 +9,4 @@ keywords = ["geography", "geospatial", "gis", "gps", "olc"]
 exclude = ["rust.iml"]
 
 [dependencies]
-geo = "^0.4.3"
+geo-types = "^0.1.1"

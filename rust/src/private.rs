@@ -5,7 +5,7 @@ use consts::{
 
 use interface::encode;
 
-use geo::Point;
+use geo_types::Point;
 
 pub fn code_value(chr: char) -> usize {
     // We assume this function is only called by other functions that have

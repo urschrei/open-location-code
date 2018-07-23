@@ -1,7 +1,7 @@
 // use std::ascii::AsciiExt;
 use std::result::Result;
 
-use geo::Point;
+use geo_types::Point;
 
 use codearea::CodeArea;
 

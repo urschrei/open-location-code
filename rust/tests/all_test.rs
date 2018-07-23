@@ -1,5 +1,5 @@
 extern crate open_location_code;
-extern crate geo;
+extern crate geo_types;
 
 use std::vec::Vec;
 
@@ -7,7 +7,7 @@ use open_location_code::{is_valid, is_short, is_full};
 use open_location_code::{encode, decode};
 use open_location_code::{shorten, recover_nearest};
 
-use geo::Point;
+use geo_types::Point;
 
 mod csv_reader;
 

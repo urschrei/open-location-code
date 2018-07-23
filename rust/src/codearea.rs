@@ -1,4 +1,4 @@
-use geo::Point;
+use geo_types::Point;
 
 #[derive(Copy, Clone)]
 pub struct CodeArea {
